@@ -46,7 +46,7 @@ def main():
     """
     (V budoucnu pridat nacteni ulozeneho stavu z minula)
     """
-    denik = {
+    hrdina = {
             "utocne_cislo": 0, "uc_max": 0,
             "stamina": 0, "sm_max": 0,
             "stesti": 0, "st_max": 0,
@@ -56,9 +56,9 @@ def main():
             "drahokamy": 0,
             "batoh": []
             }
-    vytvor_postavu(denik)
+    vytvor_postavu(hrdina)
 
-    hraj(hra, denik)
+    hraj(hra, hrdina)
 
 if __name__ == "__main__":
     main()
